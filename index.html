@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <div>
+            <label for="#val"><strong>Informe um número:</strong></label>
+            <input type="number" class="val" id="val">
+            <input type="button" value="Gerar Tabuada" class="btn" onclick="calcular()">
+        </div>
+        <div>
+            <select id="tabuada" class="lista" multiple size="10">
+                <option id="num1" class="num" value="num1"></option>
+                <option id="num2" class="num" value="num2"></option>
+                <option id="num3" class="num" value="num3"></option>
+                <option id="num4" class="num" value="num4"></option>
+                <option id="num5" class="num" value="num5"></option>
+                <option id="num6" class="num" value="num6"></option>
+                <option id="num7" class="num" value="num7"></option>
+                <option id="num8" class="num" value="num8"></option>
+                <option id="num9" class="num" value="num9"></option>
+                <option id="num10" class="num" value="num10"></option>
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Curso em Vídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
